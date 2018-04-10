@@ -11,12 +11,16 @@ import UIKit
 class MainMenu: UIViewController {
     @IBOutlet weak var usuario: UILabel!
     @IBOutlet weak var Ubicación: UILabel!
+    @IBOutlet weak var tiempo: UILabel!
+    @IBOutlet weak var costo_alquiler: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        usuario.text = "Luis Antonio Sánchez";
+        usuario.text = "Luis Antonio Sánchez"
         Ubicación.text = "Aguascalientes"
+        tiempo.text = "00: 15"
+        costo_alquiler.text = "25.50"
     }
 
     override func didReceiveMemoryWarning() {

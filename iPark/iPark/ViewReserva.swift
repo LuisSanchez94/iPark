@@ -20,7 +20,7 @@ class ViewReserva: UIViewController {
         super.viewDidLoad()
 
         
-        zona_buscada.text = "Calle Carranza"
+        zona_buscada.text = "Calle Madero"
         disponibles.text = "4"
         id_parquimetro.text = "08"
         costo_parcial.text = "1.5"
