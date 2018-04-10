@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96716654207D6CAF00D37FE9 /* ViewConfiguracion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96716653207D6CAF00D37FE9 /* ViewConfiguracion.swift */; };
+		96716656207D6CF600D37FE9 /* View Historial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96716655207D6CF600D37FE9 /* View Historial.swift */; };
+		96716658207D6D1F00D37FE9 /* ViewReserva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96716657207D6D1F00D37FE9 /* ViewReserva.swift */; };
+		9671665A207D6D4300D37FE9 /* ViewMetodosPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96716659207D6D4300D37FE9 /* ViewMetodosPago.swift */; };
+		9671665C207D6D6500D37FE9 /* ViewPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671665B207D6D6500D37FE9 /* ViewPerfil.swift */; };
 		968D762D20744DF900A9A1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D762C20744DF900A9A1A4 /* AppDelegate.swift */; };
 		968D762F20744DF900A9A1A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D762E20744DF900A9A1A4 /* ViewController.swift */; };
 		968D763220744DFA00A9A1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968D763020744DFA00A9A1A4 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96716653207D6CAF00D37FE9 /* ViewConfiguracion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguracion.swift; sourceTree = "<group>"; };
+		96716655207D6CF600D37FE9 /* View Historial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View Historial.swift"; sourceTree = "<group>"; };
+		96716657207D6D1F00D37FE9 /* ViewReserva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewReserva.swift; sourceTree = "<group>"; };
+		96716659207D6D4300D37FE9 /* ViewMetodosPago.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMetodosPago.swift; sourceTree = "<group>"; };
+		9671665B207D6D6500D37FE9 /* ViewPerfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPerfil.swift; sourceTree = "<group>"; };
 		968D762920744DF900A9A1A4 /* iPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		968D762C20744DF900A9A1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968D762E20744DF900A9A1A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +116,11 @@
 				968D763520744DFA00A9A1A4 /* LaunchScreen.storyboard */,
 				968D763820744DFA00A9A1A4 /* Info.plist */,
 				968D765A20745E3700A9A1A4 /* MainMenu.swift */,
+				96716653207D6CAF00D37FE9 /* ViewConfiguracion.swift */,
+				96716655207D6CF600D37FE9 /* View Historial.swift */,
+				96716657207D6D1F00D37FE9 /* ViewReserva.swift */,
+				96716659207D6D4300D37FE9 /* ViewMetodosPago.swift */,
+				9671665B207D6D6500D37FE9 /* ViewPerfil.swift */,
 			);
 			path = iPark;
 			sourceTree = "<group>";
@@ -262,9 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9671665C207D6D6500D37FE9 /* ViewPerfil.swift in Sources */,
+				96716656207D6CF600D37FE9 /* View Historial.swift in Sources */,
+				96716654207D6CAF00D37FE9 /* ViewConfiguracion.swift in Sources */,
 				968D762F20744DF900A9A1A4 /* ViewController.swift in Sources */,
+				96716658207D6D1F00D37FE9 /* ViewReserva.swift in Sources */,
 				968D765B20745E3700A9A1A4 /* MainMenu.swift in Sources */,
 				968D762D20744DF900A9A1A4 /* AppDelegate.swift in Sources */,
+				9671665A207D6D4300D37FE9 /* ViewMetodosPago.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +531,7 @@
 				968D765320744DFA00A9A1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		968D765420744DFA00A9A1A4 /* Build configuration list for PBXNativeTarget "iParkTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +540,7 @@
 				968D765620744DFA00A9A1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		968D765720744DFA00A9A1A4 /* Build configuration list for PBXNativeTarget "iParkUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +549,7 @@
 				968D765920744DFA00A9A1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

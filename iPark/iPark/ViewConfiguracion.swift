@@ -1,22 +1,19 @@
 //
-//  MainMenu.swift
+//  ViewConfiguracion.swift
 //  iPark
 //
-//  Created by Luis Antonio Sánchez Pérez on 03/04/18.
+//  Created by Luis Antonio Sánchez Pérez on 10/04/18.
 //  Copyright © 2018 Luis Antonio Sánchez Pérez. All rights reserved.
 //
 
 import UIKit
 
-class MainMenu: UIViewController {
-    @IBOutlet weak var usuario: UILabel!
-    @IBOutlet weak var Ubicación: UILabel!
+class ViewConfiguracion: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        usuario.text = "Luis Antonio Sánchez";
-        Ubicación.text = "Aguascalientes"
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

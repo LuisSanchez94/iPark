@@ -1,22 +1,29 @@
 //
-//  MainMenu.swift
+//  ViewPerfil.swift
 //  iPark
 //
-//  Created by Luis Antonio Sánchez Pérez on 03/04/18.
+//  Created by Luis Antonio Sánchez Pérez on 10/04/18.
 //  Copyright © 2018 Luis Antonio Sánchez Pérez. All rights reserved.
 //
 
 import UIKit
 
-class MainMenu: UIViewController {
-    @IBOutlet weak var usuario: UILabel!
-    @IBOutlet weak var Ubicación: UILabel!
+class ViewPerfil: UIViewController {
 
+    @IBOutlet weak var usuario: UILabel!
+    @IBOutlet weak var correo: UILabel!
+    @IBOutlet weak var ubicacion: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        usuario.text = "Luis Antonio Sánchez";
-        Ubicación.text = "Aguascalientes"
+        
+        usuario.text = "Luis Antonio Sánchez Pérez";
+        correo.text = "0161624@up.edu.mx";
+        ubicacion.text = "Aguascalientes";
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
