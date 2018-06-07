@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+
+
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var user_name: UITextField!
+    @IBOutlet weak var password: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +26,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func Login(_ sender: Any) {
+        Auth.auth().signIn(withEmail: user_name.text!, password: password.text!,completion: {
+            (user,error) in
+            if error != nil{
+                
+                
+            }
+            else{
+                self.performSegue(withIdentifier: "gotoLogin", sender: self)
+            }
+        })
+    }
 }
 

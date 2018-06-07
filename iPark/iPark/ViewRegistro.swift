@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewRegistro: UIViewController {
 
+    @IBOutlet weak var email_tf: UITextField!
+    @IBOutlet weak var pass_tf: UITextField!
+    @IBOutlet weak var pass2_tf: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,5 +37,23 @@ class ViewRegistro: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func register_user(_ sender: Any) {
+        
+        if(pass_tf.text == pass2_tf.text){
+            Auth.auth().createUser(withEmail: email_tf.text!, password: pass_tf.text!,completion: {
+                (user,error) in
+                if error != nil{
+                    
+                    
+                }
+                else{
+                    self.performSegue(withIdentifier: "MainWindowLogin", sender: self)
+                }
+            })
+        }
+
+    }
+    
 
 }
